@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marcus Fernandez | Pharmacy &amp; Insurance Virtual Assistant</title>
+<meta name="description" content="Virtual assistant for pharmacies, clinics and medical billing teams. Insurance verification, prior authorization support, claims and patient account management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Literata:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F0; --paper:#FFFFFF; --ink:#17252A; --muted:#55666B; --green:#0B6E4F; --line:#C9D6D2;
+  --serif:"Literata",Georgia,serif; --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans)}
+a{color:var(--green)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;gap:1rem;flex-wrap:wrap}
+header.top strong{font:700 1.1rem var(--serif)}
+nav a{margin-left:1.25rem;color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--green);text-decoration:underline}
+
+/* The one memorable thing: the hero is a prescription label */
+.rx{background:var(--paper);border:2px solid var(--ink);border-radius:6px;max-width:44rem;margin:1.5rem 0 3rem;padding:0}
+.rx-row{display:grid;grid-template-columns:8.5rem 1fr;border-bottom:1px solid var(--line);padding:.85rem 1.25rem;gap:1rem}
+.rx-row:last-child{border-bottom:0}
+.rx-row dt{color:var(--muted);font-size:.9rem;font-weight:600}
+.rx-row dd{margin:0}
+.rx h1{font:700 clamp(1.9rem,5vw,2.8rem)/1.15 var(--serif);margin:0}
+.rx .sub{color:var(--muted);margin:.25rem 0 0}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:.7rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:600}
+.btn:hover{background:#08573f}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--ink);margin-left:.5rem}
+.btn.alt:hover{background:var(--ink);color:#fff}
+
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.7rem/1.2 var(--serif);margin:0 0 1rem}
+.lead{max-width:40rem}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.5rem 2rem;margin:0;padding:0;list-style:none}
+.services h3{font:600 1.05rem var(--sans);margin:0 0 .25rem}
+.services p{margin:0;color:var(--muted)}
+.samples article{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:1.25rem;margin-bottom:1rem;max-width:44rem}
+.samples h3{font:700 1.15rem var(--serif);margin:0 0 .25rem}
+.samples p{margin:.25rem 0}
+.tag{font-size:.85rem;color:var(--muted)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem 2rem}
+.facts p{margin:0}
+.facts b{display:block;font:700 1.15rem var(--serif)}
+.privacy{background:var(--paper);border-left:4px solid var(--green);padding:1rem 1.25rem;max-width:44rem}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
+@media (max-width:34rem){.rx-row{grid-template-columns:1fr;gap:.15rem}.btn.alt{margin:.5rem 0 0}nav a{margin:0 1rem 0 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <strong>Marcus Fernandez</strong>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#samples">Sample work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <dl class="rx" aria-label="Summary of what I do">
+      <div class="rx-row"><dt>Prepared for</dt><dd>Pharmacies, clinics and medical billing teams</dd></div>
+      <div class="rx-row"><dt>Provider</dt><dd><h1>Marcus Fernandez</h1><p class="sub">Pharmacy and insurance virtual assistant</p></dd></div>
+      <div class="rx-row"><dt>Services</dt><dd>Insurance benefits verification, prior authorization support, prescription and patient account data entry, claims and billing support.</dd></div>
+      <div class="rx-row"><dt>Experience</dt><dd>Two years in pharmacy operations and insurance support at Optum Global Solutions.</dd></div>
+      <div class="rx-row"><dt>Availability</dt><dd>[Hours per week, time zone, and when you can start]</dd></div>
+      <div class="rx-row"><dt>Next step</dt><dd><a class="btn" href="mailto:mfhrylle@gmail.com?subject=Project%20inquiry">Email me</a><a class="btn alt" href="#samples">See sample work</a></dd></div>
+    </dl>
+
+    <section id="services">
+      <h2>How I can help your practice</h2>
+      <ul class="services">
+        <li><h3>Insurance benefits verification</h3><p>Check coverage, copays and plan limits before the patient arrives, so claims are not denied later.</p></li>
+        <li><h3>Prior authorization support</h3><p>Gather documents, submit requests and follow up with providers and payers until there is an answer.</p></li>
+        <li><h3>Claims and billing support</h3><p>Review claims for errors, track balances and reconcile patient payments.</p></li>
+        <li><h3>Data entry and records</h3><p>Accurate patient and prescription records, organized the way your team already works.</p></li>
+        <li><h3>Scheduling and coordination</h3><p>Book appointments and referrals, and keep patients and providers informed.</p></li>
+      </ul>
+    </section>
+
+    <section id="samples" class="samples">
+      <h2>Sample work</h2>
+      <p class="lead">These samples use fictional data only. I never share real patient information.</p>
+      <article>
+        <h3>Insurance verification checklist</h3>
+        <p>A one-page checklist and tracking sheet for verifying eligibility, copays and prior authorization requirements.</p>
+        <p class="tag">Google Sheets and PDF. [Add your link]</p>
+      </article>
+      <article>
+        <h3>Prior authorization tracker</h3>
+        <p>A tracker that shows each request, its status, the follow-up date and who is responsible.</p>
+        <p class="tag">Google Sheets. [Add your link]</p>
+      </article>
+      <article>
+        <h3>Prescription data entry accuracy check</h3>
+        <p>A before-and-after example of cleaning up a messy prescription log, with every error flagged.</p>
+        <p class="tag">Google Sheets. [Add your link]</p>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p class="lead">I have worked in pharmacy operations and health insurance support in a fast-paced team, handling prescription processing, benefits verification, prior authorizations and patient accounts. I now take on freelance work so smaller healthcare businesses can get the same careful, compliant support.</p>
+      <div class="facts" style="margin-top:1.5rem">
+        <p><b>Optum Rx</b>Pharmacy Assistant, 2025</p>
+        <p><b>United Health Care</b>Insurance Benefits Specialist, 2024 to 2025</p>
+        <p><b>[Your verified result]</b>[Add only figures you can back up]</p>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <div class="privacy"><strong>Privacy first.</strong> I follow your privacy rules and any agreement we sign. I will not store patient data on personal devices or share it with anyone outside your team.</div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's talk about your needs</h2>
+      <p class="lead">Tell me what slows your team down. I reply within [one business day].</p>
+      <p><a class="btn" href="mailto:mfhrylle@gmail.com?subject=Project%20inquiry">mfhrylle@gmail.com</a></p>
+      <p>[Add your Upwork profile link here]</p>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Marcus Fernandez. Quezon City, Philippines.</footer>
+</div>
+</body>
+</html>
